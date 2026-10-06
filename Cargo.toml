@@ -1,0 +1,10 @@
+[package]
+name = "mpmc_ring"
+version = "0.1.0"
+edition = "2021"
+description = "Bounded MPMC ring buffer queue (Vyukov-style), in-process only"
+
+[dependencies]
+
+[profile.release]
+debug-assertions = true
